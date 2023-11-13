@@ -118,10 +118,11 @@ function Newsletter() {
     >
       <h2 className="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100">
         <MailIcon className="h-6 w-6 flex-none" />
-        <span className="ml-3">Stay up to date</span>
+        <span className="ml-3">Resta aggiornato</span>
       </h2>
       <p className="mt-2 text-sm text-zinc-600 dark:text-zinc-400">
-        Get notified when I publish something new, and unsubscribe at any time.
+        Ricevi una notifica quando pubblichiamo qualcosa di nuovo, cancellati in
+        qualsiasi momento.
       </p>
       <div className="mt-6 flex">
         <input
@@ -132,7 +133,7 @@ function Newsletter() {
           className="min-w-0 flex-auto appearance-none rounded-md border border-zinc-900/10 bg-white px-3 py-[calc(theme(spacing.2)-1px)] shadow-md shadow-zinc-800/5 placeholder:text-zinc-400 focus:border-teal-500 focus:outline-none focus:ring-4 focus:ring-teal-500/10 dark:border-zinc-700 dark:bg-zinc-700/[0.15] dark:text-zinc-200 dark:placeholder:text-zinc-500 dark:focus:border-teal-400 dark:focus:ring-teal-400/10 sm:text-sm"
         />
         <Button type="submit" className="ml-4 flex-none">
-          Join
+          Unisciti
         </Button>
       </div>
     </form>
@@ -187,7 +188,7 @@ function Role({ role }: { role: Role }) {
 function Resume() {
   let resume: Array<Role> = [
     {
-      company: 'Planetaria',
+      company: 'Colombia',
       title: 'CEO',
       logo: logoPlanetaria,
       start: '2019',
@@ -197,21 +198,21 @@ function Resume() {
       },
     },
     {
-      company: 'Airbnb',
+      company: 'Islanda',
       title: 'Product Designer',
       logo: logoAirbnb,
       start: '2014',
       end: '2019',
     },
     {
-      company: 'Facebook',
+      company: 'Giappone',
       title: 'iOS Software Engineer',
       logo: logoFacebook,
       start: '2011',
       end: '2014',
     },
     {
-      company: 'Starbucks',
+      company: 'Messico',
       title: 'Shift Supervisor',
       logo: logoStarbucks,
       start: '2008',
@@ -223,7 +224,7 @@ function Resume() {
     <div className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40">
       <h2 className="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100">
         <BriefcaseIcon className="h-6 w-6 flex-none" />
-        <span className="ml-3">Work</span>
+        <span className="ml-3">Viaggi recenti</span>
       </h2>
       <ol className="mt-6 space-y-4">
         {resume.map((role, roleIndex) => (
@@ -231,7 +232,7 @@ function Resume() {
         ))}
       </ol>
       <Button href="#" variant="secondary" className="group mt-6 w-full">
-        Download CV
+        Download
         <ArrowDownIcon className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />
       </Button>
     </div>
@@ -273,13 +274,15 @@ export default async function Home() {
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-            Software designer, founder, and amateur astronaut.
+            Vagabondi digitali, narratori di mondi e pionieri dell'avventura
+            senza confini.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I’m Spencer, a software designer and entrepreneur based in New York
-            City. I’m the founder and CEO of Planetaria, where we develop
-            technologies that empower regular people to explore space on their
-            own terms.
+            Siamo un collettivo di anime viandanti, architetti di itinerari
+            insoliti e curatori di esperienze indimenticabili. Insieme su
+            jetlagged.life, tessiamo la mappa del nostro viaggio collettivo,
+            invitando il mondo a scoprire con noi la poesia nascosta nei
+            sentieri meno battuti.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink

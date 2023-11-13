@@ -48,9 +48,9 @@ function MailIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
 }
 
 export const metadata: Metadata = {
-  title: 'About',
+  title: 'Chi siamo',
   description:
-    'I’m Spencer Sharp. I live in New York City, where I design the future.',
+    'Siamo gli Spiriti Liberi di Jetlagged.life. Viviamo per il viaggio, disegniamo mappe di sogni.',
 }
 
 export default function About() {
@@ -69,58 +69,59 @@ export default function About() {
         </div>
         <div className="lg:order-first lg:row-span-2">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-            I’m Spencer Sharp. I live in New York City, where I design the
-            future.
+            Siamo gli Spiriti Liberi di Jetlagged.life. Viviamo per il viaggio,
+            disegniamo mappe di sogni.
           </h1>
           <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
             <p>
-              I’ve loved making things for as long as I can remember, and wrote
-              my first program when I was 6 years old, just two weeks after my
-              mom brought home the brand new Macintosh LC 550 that I taught
-              myself to type on.
+              Da bambini, costruivamo astronavi con scatole di cartone e
+              immaginavamo mondi al di là delle stelle. Ogni angolo della nostra
+              città natale era un nuovo pianeta da esplorare. Abbiamo
+              programmato la nostra prima avventura prima ancora di sapere cosa
+              fosse un GPS, affidandoci alle bussole di carta che disegnavamo
+              noi stessi.
             </p>
             <p>
-              The only thing I loved more than computers as a kid was space.
-              When I was 8, I climbed the 40-foot oak tree at the back of our
-              yard while wearing my older sister’s motorcycle helmet, counted
-              down from three, and jumped — hoping the tree was tall enough that
-              with just a bit of momentum I’d be able to get to orbit.
+              La nostra passione per l'esplorazione ci ha spesso portati a
+              salire sugli alberi più alti, immaginando di toccare il cielo. Con
+              caschi troppo grandi e sguardi determinati, abbiamo mirato alle
+              stelle, anche se a volte ciò significava cadere e rialzarci con
+              qualche graffio in più.
             </p>
             <p>
-              I spent the next few summers indoors working on a rocket design,
-              while I recovered from the multiple surgeries it took to fix my
-              badly broken legs. It took nine iterations, but when I was 15 I
-              sent my dad’s Blackberry into orbit and was able to transmit a
-              photo back down to our family computer from space.
+              Le estati della nostra adolescenza sono state trascorse tra mappe
+              e diari di viaggio, mentre i nostri sogni si elevavano oltre
+              l'atmosfera terrestre. Con ingegno e qualche tentativo audace,
+              abbiamo inviato simbolicamente i nostri messaggi in bottiglia
+              digitale nelle orbite dell'immaginazione.
             </p>
             <p>
-              Today, I’m the founder of Planetaria, where we’re working on
-              civilian space suits and manned shuttle kits you can assemble at
-              home so that the next generation of kids really <em>can</em> make
-              it to orbit — from the comfort of their own backyards.
+              Oggi, insieme in <b>Jetlagged.life</b>, ci dedichiamo a
+              condividere questa passione con il mondo. Non offriamo soltanto
+              consigli di viaggio: forniamo il passaporto per trasformare i
+              cortili in portali verso avventure senza limiti. Perché per noi,
+              ogni viaggiatore è un astronauta del quotidiano, e ogni
+              destinazione è un piccolo passo verso l'infinito.
             </p>
           </div>
         </div>
         <div className="lg:pl-20">
           <ul role="list">
             <SocialLink href="#" icon={TwitterIcon}>
-              Follow on Twitter
+              Seguici su Twitter
             </SocialLink>
             <SocialLink href="#" icon={InstagramIcon} className="mt-4">
-              Follow on Instagram
-            </SocialLink>
-            <SocialLink href="#" icon={GitHubIcon} className="mt-4">
-              Follow on GitHub
+              Seguici su Instagram
             </SocialLink>
             <SocialLink href="#" icon={LinkedInIcon} className="mt-4">
-              Follow on LinkedIn
+              Seguici su LinkedIn
             </SocialLink>
             <SocialLink
-              href="mailto:spencer@planetaria.tech"
+              href="mailto:info@jetlagged.life"
               icon={MailIcon}
               className="mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40"
             >
-              spencer@planetaria.tech
+              info@jetlagged.life
             </SocialLink>
           </ul>
         </div>
