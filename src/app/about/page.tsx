@@ -82,7 +82,7 @@ export default function About() {
               noi stessi.
             </p>
             <p>
-              La nostra passione per l'esplorazione ci ha spesso portati a
+              La nostra passione per l&apos;esplorazione ci ha spesso portati a
               salire sugli alberi più alti, immaginando di toccare il cielo. Con
               caschi troppo grandi e sguardi determinati, abbiamo mirato alle
               stelle, anche se a volte ciò significava cadere e rialzarci con
@@ -91,9 +91,9 @@ export default function About() {
             <p>
               Le estati della nostra adolescenza sono state trascorse tra mappe
               e diari di viaggio, mentre i nostri sogni si elevavano oltre
-              l'atmosfera terrestre. Con ingegno e qualche tentativo audace,
-              abbiamo inviato simbolicamente i nostri messaggi in bottiglia
-              digitale nelle orbite dell'immaginazione.
+              l&apos;atmosfera terrestre. Con ingegno e qualche tentativo
+              audace, abbiamo inviato simbolicamente i nostri messaggi in
+              bottiglia digitale nelle orbite dell&apos;immaginazione.
             </p>
             <p>
               Oggi, insieme in <b>Jetlagged.life</b>, ci dedichiamo a
@@ -101,7 +101,7 @@ export default function About() {
               consigli di viaggio: forniamo il passaporto per trasformare i
               cortili in portali verso avventure senza limiti. Perché per noi,
               ogni viaggiatore è un astronauta del quotidiano, e ogni
-              destinazione è un piccolo passo verso l'infinito.
+              destinazione è un piccolo passo verso l&apos;infinito.
             </p>
           </div>
         </div>
