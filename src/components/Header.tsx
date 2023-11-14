@@ -248,11 +248,9 @@ function Avatar({
       <Image
         src={logoImage}
         alt=""
-        //sizes={large ? '4rem' : '2.25rem'}
-        width={large ? 64 : 36}
-        height={large ? 64 : 36}
+        sizes={large ? '4rem' : '2.25rem'}
         className={clsx(
-          'rounded-full bg-zinc-100 object-contain dark:bg-zinc-800',
+          'rounded-xl bg-zinc-100 p-1 dark:bg-zinc-800',
           large ? 'h-16 w-16' : 'h-9 w-9',
         )}
         priority
