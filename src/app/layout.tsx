@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     default: 'Jetlagged.life - Vagabondi digitali',
   },
   description:
-    'I’m Spencer, a software designer and entrepreneur based in New York City. I’m the founder and CEO of Planetaria, where we develop technologies that empower regular people to explore space on their own terms.',
+    'Anime viandanti, architetti di itinerari insoliti e curatori di esperienze indimenticabili.',
   alternates: {
     types: {
       'application/rss+xml': `${process.env.NEXT_PUBLIC_SITE_URL}/feed.xml`,
