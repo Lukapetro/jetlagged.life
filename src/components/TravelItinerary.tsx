@@ -1,6 +1,4 @@
 import React from 'react'
-import { twMerge } from 'tailwind-merge'
-import { CheckIcon, HandThumbUpIcon, UserIcon } from '@heroicons/react/20/solid'
 
 interface Activity {
   day: number
