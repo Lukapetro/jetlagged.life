@@ -6,10 +6,9 @@ import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { useTheme } from 'next-themes'
 import { Popover, Transition } from '@headlessui/react'
-import clsx from 'clsx'
+import { twMerge } from 'tailwind-merge'
 
 import { Container } from '@/components/Container'
-import avatarImage from '@/images/avatar.jpg'
 import logoImage from '@/images/airplane@512.png'
 
 function CloseIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
@@ -159,7 +158,7 @@ function NavItem({
     <li>
       <Link
         href={href}
-        className={clsx(
+        className={twMerge(
           'relative block px-3 py-2 transition',
           isActive
             ? 'text-orange-500 dark:text-orange-400'
@@ -222,7 +221,7 @@ function AvatarContainer({
 }: React.ComponentPropsWithoutRef<'div'>) {
   return (
     <div
-      className={clsx(
+      className={twMerge(
         className,
         'h-10 w-10 rounded-full bg-white/90 p-0.5 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur dark:bg-zinc-800/90 dark:ring-white/10',
       )}
@@ -242,14 +241,14 @@ function Avatar({
     <Link
       href="/"
       aria-label="Home"
-      className={clsx(className, 'pointer-events-auto')}
+      className={twMerge(className, 'pointer-events-auto')}
       {...props}
     >
       <Image
         src={logoImage}
         alt=""
         sizes={large ? '4rem' : '2.25rem'}
-        className={clsx(
+        className={twMerge(
           'rounded-xl bg-zinc-100 p-1 dark:bg-zinc-800',
           large ? 'h-16 w-16' : 'h-9 w-9',
         )}
